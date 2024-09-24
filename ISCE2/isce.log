@@ -1377,3 +1377,85 @@ esd.snr threshold = 8.0
 2024-09-24 11:02:28,654 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
 2024-09-24 11:02:28,654 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
 2024-09-24 11:02:28,654 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-09-24 16:32:16,818 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-09-24 16:34:02,569 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-09-24 16:35:45,313 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runPreprocessor
+----------------------------------------------------------------------------------------------------
+common.Input list of swaths to process:  = [1, 2]
+reference.burstLength_1 = 1492
+reference.burstLength_2 = 1503
+reference.burstWidth_1 = 21489
+reference.burstWidth_2 = 25416
+reference.numberOfBursts_1 = 9
+reference.numberOfBursts_2 = 9
+reference.sensor.ascendingnodetime = 2017-04-02 00:10:26.323722
+reference.sensor.family = topsswathslc
+reference.sensor.folder = None
+reference.sensor.imagingmode = TOPS
+reference.sensor.mission = S1A
+reference.sensor.name = topsswathslc_name
+reference.sensor.numberofbursts = 9
+reference.sensor.processingfacility = Airbus DS-Newport, United Kingdom
+reference.sensor.processingsoftwareversion = 002.82
+reference.sensor.processingsystem = Sentinel-1 IPF
+reference.sensor.spacecraftname = Sentinel-1
+secondary.burstLength_1 = 1492
+secondary.burstLength_2 = 1503
+secondary.burstWidth_1 = 21489
+secondary.burstWidth_2 = 25416
+secondary.numberOfBursts_1 = 9
+secondary.numberOfBursts_2 = 9
+secondary.sensor.ascendingnodetime = 2017-04-14 00:10:26.829804
+secondary.sensor.family = topsswathslc
+secondary.sensor.folder = None
+secondary.sensor.imagingmode = TOPS
+secondary.sensor.mission = S1A
+secondary.sensor.name = topsswathslc_name
+secondary.sensor.numberofbursts = 9
+secondary.sensor.processingfacility = DLR-Oberpfaffenhofen, Germany
+secondary.sensor.processingsoftwareversion = 002.82
+secondary.sensor.processingsystem = Sentinel-1 IPF
+secondary.sensor.spacecraftname = Sentinel-1
+####################################################################################################
+2024-09-24 16:37:14,954 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runComputeBaseline
+----------------------------------------------------------------------------------------------------
+baseline.IW-1 Bpar at midrange for first common burst = 25.621898675859523
+baseline.IW-1 Bpar at midrange for last common burst = 26.357955261397386
+baseline.IW-1 Bperp at midrange for first common burst = 22.09696901485355
+baseline.IW-1 Bperp at midrange for last common burst = 20.600198006590297
+baseline.IW-1 First common burst in reference = 0
+baseline.IW-1 First common burst in secondary = 0
+baseline.IW-1 Last common burst in reference = 9
+baseline.IW-1 Last common burst in secondary = 9
+baseline.IW-1 Number of bursts in reference = 9
+baseline.IW-1 Number of bursts in secondary = 9
+baseline.IW-1 Number of common bursts = 9
+baseline.IW-2 Bpar at midrange for first common burst = 23.79039094822021
+baseline.IW-2 Bpar at midrange for last common burst = 24.642698228996156
+baseline.IW-2 Bperp at midrange for first common burst = 24.032778309789553
+baseline.IW-2 Bperp at midrange for last common burst = 22.601571994445724
+baseline.IW-2 First common burst in reference = 0
+baseline.IW-2 First common burst in secondary = 0
+baseline.IW-2 Last common burst in reference = 9
+baseline.IW-2 Last common burst in secondary = 9
+baseline.IW-2 Number of bursts in reference = 9
+baseline.IW-2 Number of bursts in secondary = 9
+baseline.IW-2 Number of common bursts = 9
+####################################################################################################
+2024-09-24 16:38:16,350 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22131615664063062
+2024-09-24 16:38:34,600 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22147796487986599
+2024-09-24 16:38:54,253 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22164157066457568
+2024-09-24 16:39:15,545 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22180674336529754
+2024-09-24 16:39:37,117 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22197324838110902
+2024-09-24 16:39:56,300 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22214222734369826
+2024-09-24 16:40:16,907 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22231269449678248
+2024-09-24 16:40:39,665 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22248478835410335
+2024-09-24 16:41:03,039 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2226587842391306
+2024-09-24 16:41:29,183 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22137213600416988
+2024-09-24 16:41:48,791 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22153476789829712
+2024-09-24 16:42:10,339 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22169846856231387
+2024-09-24 16:57:26,850 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
