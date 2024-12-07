@@ -2874,3 +2874,1917 @@ esd.snr threshold = 8.0
 2024-09-24 18:16:12,343 - isce.mroipac.filter - DEBUG - output: merged/filt_topophase.flat
 2024-09-24 18:16:12,343 - isce.mroipac.filter - DEBUG - filter strength: 0.2
 2024-09-24 18:16:12,343 - isce.mroipac.filter - INFO - Filtering interferogram
+2024-12-06 11:57:58,212 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-12-06 11:58:21,613 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runPreprocessor
+----------------------------------------------------------------------------------------------------
+common.Input list of swaths to process:  = [1, 2]
+reference.burstLength_1 = 1492
+reference.burstLength_2 = 1503
+reference.burstWidth_1 = 21489
+reference.burstWidth_2 = 25416
+reference.numberOfBursts_1 = 9
+reference.numberOfBursts_2 = 9
+reference.sensor.ascendingnodetime = 2021-03-12 00:10:50.940521
+reference.sensor.family = topsswathslc
+reference.sensor.folder = None
+reference.sensor.imagingmode = TOPS
+reference.sensor.mission = S1A
+reference.sensor.name = topsswathslc_name
+reference.sensor.numberofbursts = 9
+reference.sensor.processingfacility = Airbus Defence and Space-Toulouse, France
+reference.sensor.processingsoftwareversion = 003.31
+reference.sensor.processingsystem = Sentinel-1 IPF
+reference.sensor.spacecraftname = Sentinel-1
+secondary.burstLength_1 = 1492
+secondary.burstLength_2 = 1503
+secondary.burstWidth_1 = 21490
+secondary.burstWidth_2 = 25416
+secondary.numberOfBursts_1 = 9
+secondary.numberOfBursts_2 = 9
+secondary.sensor.ascendingnodetime = 2021-02-16 00:10:50.978636
+secondary.sensor.family = topsswathslc
+secondary.sensor.folder = None
+secondary.sensor.imagingmode = TOPS
+secondary.sensor.mission = S1A
+secondary.sensor.name = topsswathslc_name
+secondary.sensor.numberofbursts = 9
+secondary.sensor.processingfacility = DLR-Oberpfaffenhofen, Germany
+secondary.sensor.processingsoftwareversion = 003.31
+secondary.sensor.processingsystem = Sentinel-1 IPF
+secondary.sensor.spacecraftname = Sentinel-1
+####################################################################################################
+2024-12-06 11:58:27,166 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runComputeBaseline
+----------------------------------------------------------------------------------------------------
+baseline.IW-1 Bpar at midrange for first common burst = -19.390686066612446
+baseline.IW-1 Bpar at midrange for last common burst = -21.066380126224054
+baseline.IW-1 Bperp at midrange for first common burst = 37.75983401486011
+baseline.IW-1 Bperp at midrange for last common burst = 38.8835927429326
+baseline.IW-1 First common burst in reference = 0
+baseline.IW-1 First common burst in secondary = 0
+baseline.IW-1 Last common burst in reference = 9
+baseline.IW-1 Last common burst in secondary = 9
+baseline.IW-1 Number of bursts in reference = 9
+baseline.IW-1 Number of bursts in secondary = 9
+baseline.IW-1 Number of common bursts = 9
+baseline.IW-2 Bpar at midrange for first common burst = -22.45449940938342
+baseline.IW-2 Bpar at midrange for last common burst = -24.217542681326822
+baseline.IW-2 Bperp at midrange for first common burst = 36.112703119112695
+baseline.IW-2 Bperp at midrange for last common burst = 37.09507031205404
+baseline.IW-2 First common burst in reference = 0
+baseline.IW-2 First common burst in secondary = 0
+baseline.IW-2 Last common burst in reference = 9
+baseline.IW-2 Last common burst in secondary = 9
+baseline.IW-2 Number of bursts in reference = 9
+baseline.IW-2 Number of bursts in secondary = 9
+baseline.IW-2 Number of common bursts = 9
+####################################################################################################
+2024-12-06 11:58:55,386 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22129468555962226
+2024-12-06 11:59:03,079 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2214564564770847
+2024-12-06 11:59:12,724 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22161990193897857
+2024-12-06 11:59:21,791 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22178503687298495
+2024-12-06 11:59:30,849 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22195150262331018
+2024-12-06 11:59:39,855 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2221203147894585
+2024-12-06 11:59:49,098 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2222907410951738
+2024-12-06 11:59:58,166 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2224629226446523
+2024-12-06 12:00:07,564 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2226367474415035
+2024-12-06 12:00:17,457 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22135053160302912
+2024-12-06 12:00:25,738 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22151336772555405
+2024-12-06 12:00:34,424 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22167703279676737
+2024-12-06 12:00:44,890 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2218426337267351
+2024-12-06 12:00:55,633 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2220099441857071
+2024-12-06 12:01:07,282 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2221791060249458
+2024-12-06 12:01:19,129 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2223501379934529
+2024-12-06 12:01:31,487 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22252293113847738
+2024-12-06 12:01:42,882 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22269737325673936
+2024-12-06 12:01:54,913 - isce.topsinsar.topo - INFO - 
+####################################################################################################
+    runTopo
+----------------------------------------------------------------------------------------------------
+topo.Bounding box for burst 0 - IW-1 = [29.054750977326716, 29.39033708908665, -95.16764708644986, -94.21637838170753]
+topo.Bounding box for burst 0 - IW-2 = [29.25258733512695, 29.589270183345604, -94.32916324394917, -93.3396517852861]
+topo.Bounding box for burst 1 - IW-1 = [29.220963817912942, 29.55647944368172, -95.20452541847298, -94.25171808869955]
+topo.Bounding box for burst 1 - IW-2 = [29.419233138341276, 29.755810372165772, -94.36477273174437, -93.37358902552347]
+topo.Bounding box for burst 2 - IW-1 = [29.387180855042793, 29.722625581722244, -95.24143822605556, -94.28711133825479]
+topo.Bounding box for burst 2 - IW-2 = [29.585008060361798, 29.92148267935422, -94.40013238130346, -93.40738835535804]
+topo.Bounding box for burst 3 - IW-1 = [29.553375590928745, 29.888763126686683, -95.27860482917133, -94.32249659721346]
+topo.Bounding box for burst 3 - IW-2 = [29.75102934453785, 30.087395004095452, -94.43559142924009, -93.44124287671248]
+topo.Bounding box for burst 4 - IW-1 = [29.719166461803027, 30.054528247633503, -95.31543789701652, -94.35776348628757]
+topo.Bounding box for burst 4 - IW-2 = [29.917060365933285, 30.253327937842858, -94.47114035426185, -93.47510157862808]
+topo.Bounding box for burst 5 - IW-1 = [29.885607972577645, 30.220902314646658, -95.35241600767606, -94.39325275644092]
+topo.Bounding box for burst 5 - IW-2 = [30.083208173772658, 30.41935563279371, -94.50656499092126, -93.50901454896449]
+topo.Bounding box for burst 6 - IW-1 = [30.0519416753565, 30.387150131605768, -95.3895153594081, -94.42871040349148]
+topo.Bounding box for burst 6 - IW-2 = [30.24946744352868, 30.585523604092693, -94.54229617962335, -93.54286947206774]
+topo.Bounding box for burst 7 - IW-1 = [30.218248394980037, 30.553423381150218, -95.42600029669543, -94.4641455026865]
+topo.Bounding box for burst 7 - IW-2 = [30.415715288037106, 30.75163975484687, -94.57762594070591, -93.57674198575319]
+topo.Bounding box for burst 8 - IW-1 = [30.384501947486722, 30.719609053268677, -95.4628434495725, -94.49957821961854]
+topo.Bounding box for burst 8 - IW-2 = [30.58185777815386, 30.9177542995618, -94.61308604421984, -93.61079454233241]
+topo.Dem Used = demLat_N29_N31_Lon_W096_W093.dem.wgs84
+topo.Number of common bursts IW-1 = 9
+topo.Number of common bursts IW-2 = 9
+topo.Number of lines for burst 0 - IW-1 = 1492
+topo.Number of lines for burst 0 - IW-2 = 1503
+topo.Number of lines for burst 1 - IW-1 = 1492
+topo.Number of lines for burst 1 - IW-2 = 1503
+topo.Number of lines for burst 2 - IW-1 = 1492
+topo.Number of lines for burst 2 - IW-2 = 1503
+topo.Number of lines for burst 3 - IW-1 = 1492
+topo.Number of lines for burst 3 - IW-2 = 1503
+topo.Number of lines for burst 4 - IW-1 = 1492
+topo.Number of lines for burst 4 - IW-2 = 1503
+topo.Number of lines for burst 5 - IW-1 = 1492
+topo.Number of lines for burst 5 - IW-2 = 1503
+topo.Number of lines for burst 6 - IW-1 = 1492
+topo.Number of lines for burst 6 - IW-2 = 1503
+topo.Number of lines for burst 7 - IW-1 = 1492
+topo.Number of lines for burst 7 - IW-2 = 1503
+topo.Number of lines for burst 8 - IW-1 = 1492
+topo.Number of lines for burst 8 - IW-2 = 1503
+topo.Number of pixels for bursts 0 - IW-1 = 21489
+topo.Number of pixels for bursts 0 - IW-2 = 25416
+topo.Number of pixels for bursts 1 - IW-1 = 21489
+topo.Number of pixels for bursts 1 - IW-2 = 25416
+topo.Number of pixels for bursts 2 - IW-1 = 21489
+topo.Number of pixels for bursts 2 - IW-2 = 25416
+topo.Number of pixels for bursts 3 - IW-1 = 21489
+topo.Number of pixels for bursts 3 - IW-2 = 25416
+topo.Number of pixels for bursts 4 - IW-1 = 21489
+topo.Number of pixels for bursts 4 - IW-2 = 25416
+topo.Number of pixels for bursts 5 - IW-1 = 21489
+topo.Number of pixels for bursts 5 - IW-2 = 25416
+topo.Number of pixels for bursts 6 - IW-1 = 21489
+topo.Number of pixels for bursts 6 - IW-2 = 25416
+topo.Number of pixels for bursts 7 - IW-1 = 21489
+topo.Number of pixels for bursts 7 - IW-2 = 25416
+topo.Number of pixels for bursts 8 - IW-1 = 21489
+topo.Number of pixels for bursts 8 - IW-2 = 25416
+topo.Overall bounding box = [29.054750977326716, 30.9177542995618, -95.4628434495725, -93.3396517852861]
+####################################################################################################
+2024-12-06 12:01:58,466 - isce.topsinsar.overlaps - INFO - 
+####################################################################################################
+    runSubsetOverlaps
+----------------------------------------------------------------------------------------------------
+subset.Overlap 0 number of lines - IW-1 = 151
+subset.Overlap 0 number of lines - IW-2 = 158
+subset.Overlap 0 number of valid lines - IW-1 = 113
+subset.Overlap 0 number of valid lines - IW-2 = 110
+subset.Overlap 0 start time - IW-1 = 2021-03-12 00:18:43.069911
+subset.Overlap 0 start time - IW-2 = 2021-03-12 00:18:44.021633
+subset.Overlap 0 stop time - IW-1 = 2021-03-12 00:18:43.378244
+subset.Overlap 0 stop time - IW-2 = 2021-03-12 00:18:44.344356
+subset.Overlap 1 number of lines - IW-1 = 151
+subset.Overlap 1 number of lines - IW-2 = 165
+subset.Overlap 1 number of valid lines - IW-1 = 111
+subset.Overlap 1 number of valid lines - IW-2 = 117
+subset.Overlap 1 start time - IW-1 = 2021-03-12 00:18:45.826412
+subset.Overlap 1 start time - IW-2 = 2021-03-12 00:18:46.771967
+subset.Overlap 1 stop time - IW-1 = 2021-03-12 00:18:46.134745
+subset.Overlap 1 stop time - IW-2 = 2021-03-12 00:18:47.109079
+subset.Overlap 2 number of lines - IW-1 = 151
+subset.Overlap 2 number of lines - IW-2 = 163
+subset.Overlap 2 number of valid lines - IW-1 = 114
+subset.Overlap 2 number of valid lines - IW-2 = 115
+subset.Overlap 2 start time - IW-1 = 2021-03-12 00:18:48.582913
+subset.Overlap 2 start time - IW-2 = 2021-03-12 00:18:49.526413
+subset.Overlap 2 stop time - IW-1 = 2021-03-12 00:18:48.891246
+subset.Overlap 2 stop time - IW-2 = 2021-03-12 00:18:49.859413
+subset.Overlap 3 number of lines - IW-1 = 154
+subset.Overlap 3 number of lines - IW-2 = 163
+subset.Overlap 3 number of valid lines - IW-1 = 117
+subset.Overlap 3 number of valid lines - IW-2 = 115
+subset.Overlap 3 start time - IW-1 = 2021-03-12 00:18:51.333247
+subset.Overlap 3 start time - IW-2 = 2021-03-12 00:18:52.280858
+subset.Overlap 3 stop time - IW-1 = 2021-03-12 00:18:51.647747
+subset.Overlap 3 stop time - IW-2 = 2021-03-12 00:18:52.613859
+subset.Overlap 4 number of lines - IW-1 = 149
+subset.Overlap 4 number of lines - IW-2 = 162
+subset.Overlap 4 number of valid lines - IW-1 = 111
+subset.Overlap 4 number of valid lines - IW-2 = 114
+subset.Overlap 4 start time - IW-1 = 2021-03-12 00:18:54.093859
+subset.Overlap 4 start time - IW-2 = 2021-03-12 00:18:55.037359
+subset.Overlap 4 stop time - IW-1 = 2021-03-12 00:18:54.398081
+subset.Overlap 4 stop time - IW-2 = 2021-03-12 00:18:55.368304
+subset.Overlap 5 number of lines - IW-1 = 150
+subset.Overlap 5 number of lines - IW-2 = 161
+subset.Overlap 5 number of valid lines - IW-1 = 116
+subset.Overlap 5 number of valid lines - IW-2 = 114
+subset.Overlap 5 start time - IW-1 = 2021-03-12 00:18:56.852416
+subset.Overlap 5 start time - IW-2 = 2021-03-12 00:18:57.795916
+subset.Overlap 5 stop time - IW-1 = 2021-03-12 00:18:57.158693
+subset.Overlap 5 stop time - IW-2 = 2021-03-12 00:18:58.124805
+subset.Overlap 6 number of lines - IW-1 = 150
+subset.Overlap 6 number of lines - IW-2 = 161
+subset.Overlap 6 number of valid lines - IW-1 = 115
+subset.Overlap 6 number of valid lines - IW-2 = 114
+subset.Overlap 6 start time - IW-1 = 2021-03-12 00:18:59.610972
+subset.Overlap 6 start time - IW-2 = 2021-03-12 00:19:00.554472
+subset.Overlap 6 stop time - IW-1 = 2021-03-12 00:18:59.917250
+subset.Overlap 6 stop time - IW-2 = 2021-03-12 00:19:00.883362
+subset.Overlap 7 number of lines - IW-1 = 151
+subset.Overlap 7 number of lines - IW-2 = 162
+subset.Overlap 7 number of valid lines - IW-1 = 115
+subset.Overlap 7 number of valid lines - IW-2 = 114
+subset.Overlap 7 start time - IW-1 = 2021-03-12 00:19:02.367473
+subset.Overlap 7 start time - IW-2 = 2021-03-12 00:19:03.310973
+subset.Overlap 7 stop time - IW-1 = 2021-03-12 00:19:02.675806
+subset.Overlap 7 stop time - IW-2 = 2021-03-12 00:19:03.641918
+####################################################################################################
+2024-12-06 12:02:01,847 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0, IW-1: Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 12:02:01,856 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:01,857 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:02,364 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0 - IW-1: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 12:02:02,371 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:02,372 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:03,018 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1, IW-1: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 12:02:03,025 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:03,025 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:03,498 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1 - IW-1: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 12:02:03,505 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:03,506 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:03,960 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2, IW-1: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 12:02:03,968 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:03,968 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:04,428 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2 - IW-1: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 12:02:04,435 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:04,435 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:04,900 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3, IW-1: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 12:02:04,907 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:04,907 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:05,383 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3 - IW-1: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 12:02:05,390 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:05,390 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:05,864 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4, IW-1: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 12:02:05,872 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:05,872 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:06,349 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4 - IW-1: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 12:02:06,356 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:06,356 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:06,813 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5, IW-1: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 12:02:06,820 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:06,820 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:07,291 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5 - IW-1: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 12:02:07,298 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:07,298 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:07,775 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6, IW-1: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 12:02:07,783 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:07,783 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:08,253 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6 - IW-1: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 12:02:08,260 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:08,260 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:08,726 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7, IW-1: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 12:02:08,733 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:08,733 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:09,200 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7 - IW-1: Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 12:02:09,207 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:09,207 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:09,797 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0, IW-2: Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 12:02:09,803 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:09,803 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:10,336 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0 - IW-2: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 12:02:10,342 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:10,343 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:10,871 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1, IW-2: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 12:02:10,878 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:10,878 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:11,435 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1 - IW-2: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 12:02:11,442 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:11,442 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:12,021 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2, IW-2: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 12:02:12,028 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:12,028 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:12,644 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2 - IW-2: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 12:02:12,651 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:12,652 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:13,225 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3, IW-2: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 12:02:13,233 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:13,233 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:13,927 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3 - IW-2: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 12:02:13,933 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:13,934 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:14,495 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4, IW-2: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 12:02:14,502 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:14,502 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:15,054 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4 - IW-2: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 12:02:15,061 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:15,061 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:15,611 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5, IW-2: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 12:02:15,619 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:15,620 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:16,167 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5 - IW-2: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 12:02:16,174 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:16,174 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:16,854 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6, IW-2: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 12:02:16,862 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:16,862 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:17,404 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6 - IW-2: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 12:02:17,410 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:17,411 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:17,969 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7, IW-2: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 12:02:17,975 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:17,976 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:18,525 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7 - IW-2: Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 12:02:18,533 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 12:02:18,533 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 12:02:23,847 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:23,848 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:23,848 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:02:29,348 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:29,349 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:29,349 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:02:34,655 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:34,655 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:34,655 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:02:39,989 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:39,990 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:39,990 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:02:45,510 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:45,510 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:45,511 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:02:50,965 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:50,965 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:50,966 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:02:56,269 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:02:56,269 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:02:56,269 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:01,550 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:01,551 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:01,551 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:06,901 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:06,901 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:06,901 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:12,254 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:12,254 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:12,255 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:17,489 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:17,489 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:17,490 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:22,777 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:22,777 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:22,778 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:28,282 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:28,282 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:28,283 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:33,665 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:33,665 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:33,666 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:38,994 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:38,994 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:38,994 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:44,338 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:03:44,339 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:03:44,339 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:50,131 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:03:50,132 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:03:50,132 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:03:56,334 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:03:56,334 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:03:56,334 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:02,445 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:02,445 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:02,446 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:08,612 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:08,612 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:08,612 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:14,880 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:14,880 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:14,881 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:21,128 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:21,128 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:21,128 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:27,286 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:27,287 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:27,287 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:33,353 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:33,354 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:33,354 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:39,552 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:39,552 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:39,553 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:45,748 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:45,749 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:45,749 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:51,893 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:51,893 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:51,893 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:04:58,025 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:04:58,025 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:04:58,026 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:05:04,212 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:05:04,212 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:05:04,212 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:05:10,471 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:05:10,471 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:05:10,471 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:05:16,576 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:05:16,576 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:05:16,577 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:05:22,708 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:05:22,708 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:05:22,708 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:10:11,833 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_01.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:12,088 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_02.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:12,324 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_03.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:12,567 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_04.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:12,815 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_05.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:13,046 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_06.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:13,287 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_07.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:13,524 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_08.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:14,295 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_01.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:14,573 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_02.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:14,868 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_03.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:15,157 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_04.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:15,444 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_05.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:15,726 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_06.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:16,006 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_07.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:16,288 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_08.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 12:10:21,924 - isce.topsinsar.esd - INFO - 
+####################################################################################################
+    runESD
+----------------------------------------------------------------------------------------------------
+esd.Mean = -0.0004562286261496975
+esd.Median = -0.0007754176913294941
+esd.Std = 0.002656058529049125
+esd.coherence threshold = 0.85
+esd.number of coherent points = 290
+####################################################################################################
+2024-12-06 12:14:03,178 - isce.topsinsar.rangecoreg - INFO - 
+####################################################################################################
+    runRangeCoreg
+----------------------------------------------------------------------------------------------------
+esd.Mean = -0.06779667927974947
+esd.Median = -0.09375
+esd.Std = 0.44201760795249917
+esd.number of coherent points = 3832
+esd.snr threshold = 8.0
+####################################################################################################
+2024-12-06 12:14:43,584 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 12:14:43,592 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:14:43,592 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:14:50,190 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 12:14:50,198 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:14:50,198 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:14:56,328 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 12:14:56,335 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:14:56,335 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:02,947 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 12:15:02,954 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:02,954 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:09,747 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 12:15:09,754 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:09,755 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:16,329 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 12:15:16,337 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:16,337 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:22,893 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 12:15:22,900 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:22,900 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:29,816 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 12:15:29,823 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:29,823 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:36,640 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 12:15:36,649 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:36,650 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:43,080 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 12:15:43,087 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:43,087 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:51,774 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 12:15:51,781 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:51,781 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:15:59,280 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 12:15:59,287 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:15:59,287 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:06,719 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 12:16:06,727 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:16:06,728 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:14,129 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 12:16:14,136 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:16:14,136 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:21,709 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 12:16:21,716 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:16:21,717 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:29,039 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 12:16:29,046 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:16:29,047 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:36,361 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 12:16:36,368 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:16:36,368 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:43,794 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 12:16:43,801 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939147205437955e-06 secs
+2024-12-06 12:16:43,801 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 12:16:51,488 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:16:51,489 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:16:51,489 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:16:59,615 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:16:59,616 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:16:59,616 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:07,754 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:07,755 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:07,755 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:16,226 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:16,226 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:16,226 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:24,577 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:24,577 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:24,577 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:32,989 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:32,989 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:32,989 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:41,348 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:41,348 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:41,348 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:49,946 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:49,946 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:49,946 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:17:58,396 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 12:17:58,396 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 12:17:58,396 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:18:06,922 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:18:06,922 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:18:06,923 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:18:16,461 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:18:16,462 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:18:16,462 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:18:26,134 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:18:26,135 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:18:26,135 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:18:35,534 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:18:35,534 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:18:35,534 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:18:45,125 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:18:45,125 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:18:45,126 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:18:54,955 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:18:54,955 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:18:54,955 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:19:04,718 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:19:04,718 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:19:04,718 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:19:14,449 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:19:14,449 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:19:14,450 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:19:24,321 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 12:19:24,321 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 12:19:24,321 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 12:21:05,304 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:21:17,950 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:21:30,652 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:21:43,627 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:21:56,515 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:22:09,507 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:22:22,536 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:22:35,529 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:22:48,599 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:23:02,668 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:23:17,800 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:23:32,771 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:23:47,808 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:24:02,635 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:24:17,477 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:24:32,248 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:24:47,092 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:25:01,929 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 12:27:18,208 - isce.topsinsar.runFilter - INFO - Applying power-spectral filter
+2024-12-06 12:27:18,213 - isce.mroipac.filter - DEBUG - width: 22682
+2024-12-06 12:27:18,213 - isce.mroipac.filter - DEBUG - length: 2115
+2024-12-06 12:27:18,214 - isce.mroipac.filter - DEBUG - input: merged/topophase.flat
+2024-12-06 12:27:18,214 - isce.mroipac.filter - DEBUG - output: merged/filt_topophase.flat
+2024-12-06 12:27:18,214 - isce.mroipac.filter - DEBUG - filter strength: 0.2
+2024-12-06 12:27:18,214 - isce.mroipac.filter - INFO - Filtering interferogram
+2024-12-06 16:07:50,151 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-12-06 16:13:03,050 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runPreprocessor
+----------------------------------------------------------------------------------------------------
+common.Input list of swaths to process:  = [1, 2]
+reference.burstLength_1 = 1492
+reference.burstLength_2 = 1503
+reference.burstWidth_1 = 21489
+reference.burstWidth_2 = 25416
+reference.numberOfBursts_1 = 9
+reference.numberOfBursts_2 = 9
+reference.sensor.ascendingnodetime = 2021-03-12 00:10:50.940521
+reference.sensor.family = topsswathslc
+reference.sensor.folder = None
+reference.sensor.imagingmode = TOPS
+reference.sensor.mission = S1A
+reference.sensor.name = topsswathslc_name
+reference.sensor.numberofbursts = 9
+reference.sensor.processingfacility = Airbus Defence and Space-Toulouse, France
+reference.sensor.processingsoftwareversion = 003.31
+reference.sensor.processingsystem = Sentinel-1 IPF
+reference.sensor.spacecraftname = Sentinel-1
+secondary.burstLength_1 = 1492
+secondary.burstLength_2 = 1503
+secondary.burstWidth_1 = 21490
+secondary.burstWidth_2 = 25416
+secondary.numberOfBursts_1 = 9
+secondary.numberOfBursts_2 = 9
+secondary.sensor.ascendingnodetime = 2021-02-16 00:10:50.978636
+secondary.sensor.family = topsswathslc
+secondary.sensor.folder = None
+secondary.sensor.imagingmode = TOPS
+secondary.sensor.mission = S1A
+secondary.sensor.name = topsswathslc_name
+secondary.sensor.numberofbursts = 9
+secondary.sensor.processingfacility = DLR-Oberpfaffenhofen, Germany
+secondary.sensor.processingsoftwareversion = 003.31
+secondary.sensor.processingsystem = Sentinel-1 IPF
+secondary.sensor.spacecraftname = Sentinel-1
+####################################################################################################
+2024-12-06 16:24:20,231 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runComputeBaseline
+----------------------------------------------------------------------------------------------------
+baseline.IW-1 Bpar at midrange for first common burst = -19.39068606631616
+baseline.IW-1 Bpar at midrange for last common burst = -21.066380127186978
+baseline.IW-1 Bperp at midrange for first common burst = 37.75983401501226
+baseline.IW-1 Bperp at midrange for last common burst = 38.883592742410904
+baseline.IW-1 First common burst in reference = 0
+baseline.IW-1 First common burst in secondary = 0
+baseline.IW-1 Last common burst in reference = 9
+baseline.IW-1 Last common burst in secondary = 9
+baseline.IW-1 Number of bursts in reference = 9
+baseline.IW-1 Number of bursts in secondary = 9
+baseline.IW-1 Number of common bursts = 9
+baseline.IW-2 Bpar at midrange for first common burst = -22.45449940973217
+baseline.IW-2 Bpar at midrange for last common burst = -24.21754268237307
+baseline.IW-2 Bperp at midrange for first common burst = 36.11270311889584
+baseline.IW-2 Bperp at midrange for last common burst = 37.095070311370996
+baseline.IW-2 First common burst in reference = 0
+baseline.IW-2 First common burst in secondary = 0
+baseline.IW-2 Last common burst in reference = 9
+baseline.IW-2 Last common burst in secondary = 9
+baseline.IW-2 Number of bursts in reference = 9
+baseline.IW-2 Number of bursts in secondary = 9
+baseline.IW-2 Number of common bursts = 9
+####################################################################################################
+2024-12-06 16:24:31,573 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22129468555962226
+2024-12-06 16:24:48,639 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2214564564770847
+2024-12-06 16:24:58,436 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22161990193897851
+2024-12-06 16:25:07,687 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22178503687298495
+2024-12-06 16:25:17,676 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2219515026233102
+2024-12-06 16:25:37,129 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22212031478945857
+2024-12-06 16:25:55,886 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22229074109517383
+2024-12-06 16:26:05,330 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2224629226446523
+2024-12-06 16:26:22,052 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2226367474415035
+2024-12-06 16:26:39,645 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22135053160302914
+2024-12-06 16:26:48,871 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22151336772555408
+2024-12-06 16:27:40,964 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-12-06 16:27:50,680 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-12-06 16:28:08,623 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runPreprocessor
+----------------------------------------------------------------------------------------------------
+common.Input list of swaths to process:  = [1, 2]
+reference.burstLength_1 = 1492
+reference.burstLength_2 = 1503
+reference.burstWidth_1 = 21489
+reference.burstWidth_2 = 25416
+reference.numberOfBursts_1 = 9
+reference.numberOfBursts_2 = 9
+reference.sensor.ascendingnodetime = 2021-03-12 00:10:50.940521
+reference.sensor.family = topsswathslc
+reference.sensor.folder = None
+reference.sensor.imagingmode = TOPS
+reference.sensor.mission = S1A
+reference.sensor.name = topsswathslc_name
+reference.sensor.numberofbursts = 9
+reference.sensor.processingfacility = Airbus Defence and Space-Toulouse, France
+reference.sensor.processingsoftwareversion = 003.31
+reference.sensor.processingsystem = Sentinel-1 IPF
+reference.sensor.spacecraftname = Sentinel-1
+secondary.burstLength_1 = 1492
+secondary.burstLength_2 = 1503
+secondary.burstWidth_1 = 21490
+secondary.burstWidth_2 = 25416
+secondary.numberOfBursts_1 = 9
+secondary.numberOfBursts_2 = 9
+secondary.sensor.ascendingnodetime = 2021-02-16 00:10:50.978636
+secondary.sensor.family = topsswathslc
+secondary.sensor.folder = None
+secondary.sensor.imagingmode = TOPS
+secondary.sensor.mission = S1A
+secondary.sensor.name = topsswathslc_name
+secondary.sensor.numberofbursts = 9
+secondary.sensor.processingfacility = DLR-Oberpfaffenhofen, Germany
+secondary.sensor.processingsoftwareversion = 003.31
+secondary.sensor.processingsystem = Sentinel-1 IPF
+secondary.sensor.spacecraftname = Sentinel-1
+####################################################################################################
+2024-12-06 16:28:09,224 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runComputeBaseline
+----------------------------------------------------------------------------------------------------
+baseline.IW-1 Bpar at midrange for first common burst = -19.39068606631616
+baseline.IW-1 Bpar at midrange for last common burst = -21.066380127186978
+baseline.IW-1 Bperp at midrange for first common burst = 37.75983401501226
+baseline.IW-1 Bperp at midrange for last common burst = 38.883592742410904
+baseline.IW-1 First common burst in reference = 0
+baseline.IW-1 First common burst in secondary = 0
+baseline.IW-1 Last common burst in reference = 9
+baseline.IW-1 Last common burst in secondary = 9
+baseline.IW-1 Number of bursts in reference = 9
+baseline.IW-1 Number of bursts in secondary = 9
+baseline.IW-1 Number of common bursts = 9
+baseline.IW-2 Bpar at midrange for first common burst = -22.45449940973217
+baseline.IW-2 Bpar at midrange for last common burst = -24.21754268237307
+baseline.IW-2 Bperp at midrange for first common burst = 36.11270311889584
+baseline.IW-2 Bperp at midrange for last common burst = 37.095070311370996
+baseline.IW-2 First common burst in reference = 0
+baseline.IW-2 First common burst in secondary = 0
+baseline.IW-2 Last common burst in reference = 9
+baseline.IW-2 Last common burst in secondary = 9
+baseline.IW-2 Number of bursts in reference = 9
+baseline.IW-2 Number of bursts in secondary = 9
+baseline.IW-2 Number of common bursts = 9
+####################################################################################################
+2024-12-06 16:28:11,353 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22129468555962226
+2024-12-06 16:28:19,518 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2214564564770847
+2024-12-06 16:28:29,599 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22161990193897851
+2024-12-06 16:28:38,775 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22178503687298495
+2024-12-06 16:28:48,556 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2219515026233102
+2024-12-06 16:29:01,479 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22212031478945857
+2024-12-06 16:29:18,876 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22229074109517383
+2024-12-06 16:29:33,086 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2224629226446523
+2024-12-06 16:29:42,455 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2226367474415035
+2024-12-06 16:29:53,196 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22135053160302914
+2024-12-06 16:30:02,723 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22151336772555408
+2024-12-06 16:30:15,405 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22167703279676743
+2024-12-06 16:30:27,345 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2218426337267351
+2024-12-06 16:30:38,065 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2220099441857071
+2024-12-06 16:30:48,970 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22217910602494584
+2024-12-06 16:31:00,392 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22235013799345293
+2024-12-06 16:31:15,360 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2225229311384774
+2024-12-06 16:31:38,748 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2226973732567394
+2024-12-06 16:31:51,071 - isce.topsinsar.topo - INFO - 
+####################################################################################################
+    runTopo
+----------------------------------------------------------------------------------------------------
+topo.Bounding box for burst 0 - IW-1 = [29.054750977326716, 29.39033708908665, -95.16764708644986, -94.21637838170753]
+topo.Bounding box for burst 0 - IW-2 = [29.25258733512695, 29.589270183345604, -94.32916324394917, -93.3396517852861]
+topo.Bounding box for burst 1 - IW-1 = [29.220963817912942, 29.55647944368172, -95.20452541847298, -94.25171808869955]
+topo.Bounding box for burst 1 - IW-2 = [29.419233138341276, 29.755810372165772, -94.36477273174437, -93.37358902552347]
+topo.Bounding box for burst 2 - IW-1 = [29.387180855042793, 29.722625581722244, -95.24143822605556, -94.28711133825479]
+topo.Bounding box for burst 2 - IW-2 = [29.585008060361798, 29.921482679354227, -94.40013238130346, -93.40738835535804]
+topo.Bounding box for burst 3 - IW-1 = [29.553375590928745, 29.888763126686683, -95.27860482917133, -94.32249659721346]
+topo.Bounding box for burst 3 - IW-2 = [29.75102934453785, 30.087395004095452, -94.43559142924009, -93.44124287671248]
+topo.Bounding box for burst 4 - IW-1 = [29.719166461803027, 30.054528247633503, -95.31543789701652, -94.35776348628757]
+topo.Bounding box for burst 4 - IW-2 = [29.917060365933285, 30.253327937842858, -94.47114035426185, -93.47510157862808]
+topo.Bounding box for burst 5 - IW-1 = [29.885607972577645, 30.220902314646658, -95.35241600767606, -94.39325275644092]
+topo.Bounding box for burst 5 - IW-2 = [30.083208173772658, 30.41935563279371, -94.50656499092126, -93.50901454896449]
+topo.Bounding box for burst 6 - IW-1 = [30.0519416753565, 30.387150131605768, -95.3895153594081, -94.42871040349148]
+topo.Bounding box for burst 6 - IW-2 = [30.24946744352868, 30.585523604092693, -94.54229617962332, -93.54286947206774]
+topo.Bounding box for burst 7 - IW-1 = [30.218248394980037, 30.553423381150218, -95.42600029669543, -94.4641455026865]
+topo.Bounding box for burst 7 - IW-2 = [30.415715288037106, 30.75163975484687, -94.57762594070591, -93.57674198575319]
+topo.Bounding box for burst 8 - IW-1 = [30.384501947486722, 30.719609053268677, -95.4628434495725, -94.49957821961854]
+topo.Bounding box for burst 8 - IW-2 = [30.581857778153868, 30.917754299561807, -94.61308604421983, -93.61079454233241]
+topo.Dem Used = demLat_N29_N31_Lon_W096_W093.dem.wgs84
+topo.Number of common bursts IW-1 = 9
+topo.Number of common bursts IW-2 = 9
+topo.Number of lines for burst 0 - IW-1 = 1492
+topo.Number of lines for burst 0 - IW-2 = 1503
+topo.Number of lines for burst 1 - IW-1 = 1492
+topo.Number of lines for burst 1 - IW-2 = 1503
+topo.Number of lines for burst 2 - IW-1 = 1492
+topo.Number of lines for burst 2 - IW-2 = 1503
+topo.Number of lines for burst 3 - IW-1 = 1492
+topo.Number of lines for burst 3 - IW-2 = 1503
+topo.Number of lines for burst 4 - IW-1 = 1492
+topo.Number of lines for burst 4 - IW-2 = 1503
+topo.Number of lines for burst 5 - IW-1 = 1492
+topo.Number of lines for burst 5 - IW-2 = 1503
+topo.Number of lines for burst 6 - IW-1 = 1492
+topo.Number of lines for burst 6 - IW-2 = 1503
+topo.Number of lines for burst 7 - IW-1 = 1492
+topo.Number of lines for burst 7 - IW-2 = 1503
+topo.Number of lines for burst 8 - IW-1 = 1492
+topo.Number of lines for burst 8 - IW-2 = 1503
+topo.Number of pixels for bursts 0 - IW-1 = 21489
+topo.Number of pixels for bursts 0 - IW-2 = 25416
+topo.Number of pixels for bursts 1 - IW-1 = 21489
+topo.Number of pixels for bursts 1 - IW-2 = 25416
+topo.Number of pixels for bursts 2 - IW-1 = 21489
+topo.Number of pixels for bursts 2 - IW-2 = 25416
+topo.Number of pixels for bursts 3 - IW-1 = 21489
+topo.Number of pixels for bursts 3 - IW-2 = 25416
+topo.Number of pixels for bursts 4 - IW-1 = 21489
+topo.Number of pixels for bursts 4 - IW-2 = 25416
+topo.Number of pixels for bursts 5 - IW-1 = 21489
+topo.Number of pixels for bursts 5 - IW-2 = 25416
+topo.Number of pixels for bursts 6 - IW-1 = 21489
+topo.Number of pixels for bursts 6 - IW-2 = 25416
+topo.Number of pixels for bursts 7 - IW-1 = 21489
+topo.Number of pixels for bursts 7 - IW-2 = 25416
+topo.Number of pixels for bursts 8 - IW-1 = 21489
+topo.Number of pixels for bursts 8 - IW-2 = 25416
+topo.Overall bounding box = [29.054750977326716, 30.917754299561807, -95.4628434495725, -93.3396517852861]
+####################################################################################################
+2024-12-06 16:32:18,463 - isce.topsinsar.overlaps - INFO - 
+####################################################################################################
+    runSubsetOverlaps
+----------------------------------------------------------------------------------------------------
+subset.Overlap 0 number of lines - IW-1 = 151
+subset.Overlap 0 number of lines - IW-2 = 158
+subset.Overlap 0 number of valid lines - IW-1 = 113
+subset.Overlap 0 number of valid lines - IW-2 = 110
+subset.Overlap 0 start time - IW-1 = 2021-03-12 00:18:43.069911
+subset.Overlap 0 start time - IW-2 = 2021-03-12 00:18:44.021633
+subset.Overlap 0 stop time - IW-1 = 2021-03-12 00:18:43.378244
+subset.Overlap 0 stop time - IW-2 = 2021-03-12 00:18:44.344356
+subset.Overlap 1 number of lines - IW-1 = 151
+subset.Overlap 1 number of lines - IW-2 = 165
+subset.Overlap 1 number of valid lines - IW-1 = 111
+subset.Overlap 1 number of valid lines - IW-2 = 117
+subset.Overlap 1 start time - IW-1 = 2021-03-12 00:18:45.826412
+subset.Overlap 1 start time - IW-2 = 2021-03-12 00:18:46.771967
+subset.Overlap 1 stop time - IW-1 = 2021-03-12 00:18:46.134745
+subset.Overlap 1 stop time - IW-2 = 2021-03-12 00:18:47.109079
+subset.Overlap 2 number of lines - IW-1 = 151
+subset.Overlap 2 number of lines - IW-2 = 163
+subset.Overlap 2 number of valid lines - IW-1 = 114
+subset.Overlap 2 number of valid lines - IW-2 = 115
+subset.Overlap 2 start time - IW-1 = 2021-03-12 00:18:48.582913
+subset.Overlap 2 start time - IW-2 = 2021-03-12 00:18:49.526413
+subset.Overlap 2 stop time - IW-1 = 2021-03-12 00:18:48.891246
+subset.Overlap 2 stop time - IW-2 = 2021-03-12 00:18:49.859413
+subset.Overlap 3 number of lines - IW-1 = 154
+subset.Overlap 3 number of lines - IW-2 = 163
+subset.Overlap 3 number of valid lines - IW-1 = 117
+subset.Overlap 3 number of valid lines - IW-2 = 115
+subset.Overlap 3 start time - IW-1 = 2021-03-12 00:18:51.333247
+subset.Overlap 3 start time - IW-2 = 2021-03-12 00:18:52.280858
+subset.Overlap 3 stop time - IW-1 = 2021-03-12 00:18:51.647747
+subset.Overlap 3 stop time - IW-2 = 2021-03-12 00:18:52.613859
+subset.Overlap 4 number of lines - IW-1 = 149
+subset.Overlap 4 number of lines - IW-2 = 162
+subset.Overlap 4 number of valid lines - IW-1 = 111
+subset.Overlap 4 number of valid lines - IW-2 = 114
+subset.Overlap 4 start time - IW-1 = 2021-03-12 00:18:54.093859
+subset.Overlap 4 start time - IW-2 = 2021-03-12 00:18:55.037359
+subset.Overlap 4 stop time - IW-1 = 2021-03-12 00:18:54.398081
+subset.Overlap 4 stop time - IW-2 = 2021-03-12 00:18:55.368304
+subset.Overlap 5 number of lines - IW-1 = 150
+subset.Overlap 5 number of lines - IW-2 = 161
+subset.Overlap 5 number of valid lines - IW-1 = 116
+subset.Overlap 5 number of valid lines - IW-2 = 114
+subset.Overlap 5 start time - IW-1 = 2021-03-12 00:18:56.852416
+subset.Overlap 5 start time - IW-2 = 2021-03-12 00:18:57.795916
+subset.Overlap 5 stop time - IW-1 = 2021-03-12 00:18:57.158693
+subset.Overlap 5 stop time - IW-2 = 2021-03-12 00:18:58.124805
+subset.Overlap 6 number of lines - IW-1 = 150
+subset.Overlap 6 number of lines - IW-2 = 161
+subset.Overlap 6 number of valid lines - IW-1 = 115
+subset.Overlap 6 number of valid lines - IW-2 = 114
+subset.Overlap 6 start time - IW-1 = 2021-03-12 00:18:59.610972
+subset.Overlap 6 start time - IW-2 = 2021-03-12 00:19:00.554472
+subset.Overlap 6 stop time - IW-1 = 2021-03-12 00:18:59.917250
+subset.Overlap 6 stop time - IW-2 = 2021-03-12 00:19:00.883362
+subset.Overlap 7 number of lines - IW-1 = 151
+subset.Overlap 7 number of lines - IW-2 = 162
+subset.Overlap 7 number of valid lines - IW-1 = 115
+subset.Overlap 7 number of valid lines - IW-2 = 114
+subset.Overlap 7 start time - IW-1 = 2021-03-12 00:19:02.367473
+subset.Overlap 7 start time - IW-2 = 2021-03-12 00:19:03.310973
+subset.Overlap 7 stop time - IW-1 = 2021-03-12 00:19:02.675806
+subset.Overlap 7 stop time - IW-2 = 2021-03-12 00:19:03.641918
+####################################################################################################
+2024-12-06 16:32:21,802 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0, IW-1: Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 16:32:21,810 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:21,810 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:22,158 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0 - IW-1: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 16:32:22,166 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:22,166 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:22,521 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1, IW-1: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 16:32:22,527 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:22,528 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:22,873 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1 - IW-1: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 16:32:22,880 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:22,880 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:23,204 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2, IW-1: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 16:32:23,210 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:23,210 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:23,540 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2 - IW-1: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 16:32:23,547 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:23,547 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:23,875 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3, IW-1: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 16:32:23,882 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:23,882 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:24,216 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3 - IW-1: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 16:32:24,222 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:24,223 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:24,592 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4, IW-1: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 16:32:24,598 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:24,598 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:24,914 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4 - IW-1: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 16:32:24,920 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:24,920 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:25,235 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5, IW-1: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 16:32:25,243 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:25,243 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:25,605 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5 - IW-1: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 16:32:25,612 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:25,612 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:25,943 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6, IW-1: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 16:32:25,950 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:25,950 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:26,374 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6 - IW-1: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 16:32:26,382 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:26,382 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:26,738 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7, IW-1: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 16:32:26,745 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:26,745 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:27,160 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7 - IW-1: Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 16:32:27,167 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:27,167 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:27,733 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0, IW-2: Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 16:32:27,739 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:27,740 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:28,154 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0 - IW-2: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 16:32:28,161 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:28,162 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:28,549 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1, IW-2: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 16:32:28,556 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:28,557 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:29,023 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1 - IW-2: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 16:32:29,029 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:29,030 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:29,447 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2, IW-2: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 16:32:29,454 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:29,454 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:29,846 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2 - IW-2: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 16:32:29,854 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:29,854 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:30,250 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3, IW-2: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 16:32:30,256 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:30,257 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:30,680 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3 - IW-2: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 16:32:30,686 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:30,687 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:31,123 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4, IW-2: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 16:32:31,129 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:31,130 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:31,523 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4 - IW-2: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 16:32:31,529 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:31,530 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:31,985 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5, IW-2: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 16:32:31,992 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:31,992 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:32,378 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5 - IW-2: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 16:32:32,385 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:32,385 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:32,768 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6, IW-2: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 16:32:32,775 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:32,775 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:33,158 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6 - IW-2: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 16:32:33,165 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:33,165 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:33,577 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7, IW-2: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 16:32:33,583 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:33,584 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:33,978 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7 - IW-2: Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 16:32:33,985 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 16:32:33,985 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 16:32:34,876 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:32:34,876 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:32:34,876 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:32:40,193 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:32:40,193 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:32:40,193 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:32:45,354 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:32:45,355 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:32:45,355 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:32:50,506 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:32:50,506 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:32:50,506 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:32:55,675 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:32:55,676 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:32:55,676 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:00,918 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:00,918 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:00,918 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:06,102 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:06,102 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:06,102 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:11,314 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:11,315 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:11,315 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:16,798 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:16,799 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:16,799 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:22,060 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:22,061 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:22,061 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:27,219 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:27,219 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:27,219 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:32,435 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:32,436 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:32,436 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:37,842 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:37,842 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:37,842 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:43,105 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:43,105 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:43,106 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:48,540 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:48,541 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:48,541 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:53,933 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:33:53,933 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:33:53,934 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:33:59,753 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:33:59,754 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:33:59,754 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:05,833 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:05,834 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:05,834 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:11,861 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:11,861 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:11,862 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:17,962 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:17,962 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:17,962 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:24,189 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:24,189 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:24,190 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:30,291 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:30,292 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:30,292 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:36,533 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:36,533 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:36,533 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:42,743 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:42,744 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:42,744 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:49,019 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:49,019 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:49,020 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:34:55,299 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:34:55,300 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:34:55,300 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:35:01,392 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:35:01,392 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:35:01,393 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:35:07,485 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:35:07,485 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:35:07,485 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:35:13,783 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:35:13,783 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:35:13,784 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:35:20,096 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:35:20,096 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:35:20,097 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:35:26,342 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:35:26,342 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:35:26,343 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:35:32,554 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:35:32,554 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:35:32,554 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:37:47,883 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_01.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:48,145 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_02.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:48,386 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_03.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:48,634 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_04.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:48,884 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_05.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:49,125 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_06.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:49,371 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_07.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:49,622 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW1_08.5alks_15rlks.int 
+bands = 1 
+width = 1432 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:50,424 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_01.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:50,713 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_02.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:51,019 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_03.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:51,319 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_04.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:51,615 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_05.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:51,909 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_06.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:52,202 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_07.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:52,499 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW2_08.5alks_15rlks.int 
+bands = 1 
+width = 1694 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 16:37:53,097 - isce.topsinsar.esd - INFO - 
+####################################################################################################
+    runESD
+----------------------------------------------------------------------------------------------------
+esd.Mean = -0.00045622846470811556
+esd.Median = -0.0007754178077448159
+esd.Std = 0.002656058407858805
+esd.coherence threshold = 0.85
+esd.number of coherent points = 290
+####################################################################################################
+2024-12-06 16:40:55,674 - isce.topsinsar.rangecoreg - INFO - 
+####################################################################################################
+    runRangeCoreg
+----------------------------------------------------------------------------------------------------
+esd.Mean = -0.06779667927974947
+esd.Median = -0.09375
+esd.Std = 0.44201760795249917
+esd.number of coherent points = 3832
+esd.snr threshold = 8.0
+####################################################################################################
+2024-12-06 16:40:55,830 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 16:40:55,837 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:40:55,837 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:00,284 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 16:41:00,292 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:00,292 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:04,602 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 16:41:04,610 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:04,610 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:08,859 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 16:41:08,867 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:08,867 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:13,211 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 16:41:13,218 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:13,218 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:17,574 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 16:41:17,582 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:17,582 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:22,124 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 16:41:22,132 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:22,132 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:26,366 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 16:41:26,374 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:26,374 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:30,572 - isce.topsinsar.fineoffsets - INFO - IW1 - Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 16:41:30,580 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:30,580 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:34,895 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 16:41:34,902 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:34,902 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:39,877 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 16:41:39,884 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:39,884 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:44,932 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 16:41:44,940 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:44,940 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:50,073 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 16:41:50,081 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:50,081 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:41:55,108 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 16:41:55,115 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:41:55,116 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:42:00,376 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 16:42:00,383 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:42:00,384 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:42:05,377 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 16:42:05,385 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:42:05,385 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:42:10,429 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 16:42:10,437 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:42:10,437 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:42:15,473 - isce.topsinsar.fineoffsets - INFO - IW2 - Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 16:42:15,481 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: -1.5939149598420436e-06 secs
+2024-12-06 16:42:15,481 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.1579365755536097 m
+2024-12-06 16:42:21,015 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:42:21,015 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:42:21,016 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:42:29,086 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:42:29,086 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:42:29,087 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:42:36,985 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:42:36,986 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:42:36,986 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:42:45,030 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:42:45,030 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:42:45,031 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:42:52,852 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:42:52,852 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:42:52,853 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:01,025 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:43:01,025 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:43:01,026 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:08,920 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:43:08,920 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:43:08,921 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:16,986 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:43:16,986 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:43:16,987 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:25,036 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1492 which is the number of lines in the slc image.
+2024-12-06 16:43:25,036 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 21490 which is the width of the slc image.
+2024-12-06 16:43:25,036 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:33,197 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:43:33,198 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:43:33,198 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:42,642 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:43:42,642 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:43:42,643 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:43:52,065 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:43:52,065 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:43:52,066 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:44:01,526 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:44:01,526 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:44:01,526 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:44:11,045 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:44:11,045 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:44:11,046 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:44:20,709 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:44:20,710 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:44:20,710 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:44:30,292 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:44:30,292 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:44:30,293 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:44:39,891 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:44:39,891 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:44:39,892 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 16:44:49,407 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1503 which is the number of lines in the slc image.
+2024-12-06 16:44:49,408 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 25416 which is the width of the slc image.
+2024-12-06 16:44:49,408 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:05:37,098 - isce.insar - INFO - ISCE VERSION = 2.6.3, RELEASE_SVN_REVISION = ,RELEASE_DATE = 20230418, CURRENT_SVN_REVISION = 
+2024-12-06 18:05:48,091 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runPreprocessor
+----------------------------------------------------------------------------------------------------
+common.Input list of swaths to process:  = [3]
+reference.burstLength_3 = 1508
+reference.burstWidth_3 = 24568
+reference.numberOfBursts_3 = 9
+reference.sensor.ascendingnodetime = 2021-03-12 00:10:50.940521
+reference.sensor.family = topsswathslc
+reference.sensor.folder = None
+reference.sensor.imagingmode = TOPS
+reference.sensor.mission = S1A
+reference.sensor.name = topsswathslc_name
+reference.sensor.numberofbursts = 9
+reference.sensor.processingfacility = Airbus Defence and Space-Toulouse, France
+reference.sensor.processingsoftwareversion = 003.31
+reference.sensor.processingsystem = Sentinel-1 IPF
+reference.sensor.spacecraftname = Sentinel-1
+secondary.burstLength_3 = 1508
+secondary.burstWidth_3 = 24569
+secondary.numberOfBursts_3 = 9
+secondary.sensor.ascendingnodetime = 2021-02-16 00:10:50.978636
+secondary.sensor.family = topsswathslc
+secondary.sensor.folder = None
+secondary.sensor.imagingmode = TOPS
+secondary.sensor.mission = S1A
+secondary.sensor.name = topsswathslc_name
+secondary.sensor.numberofbursts = 9
+secondary.sensor.processingfacility = DLR-Oberpfaffenhofen, Germany
+secondary.sensor.processingsoftwareversion = 003.31
+secondary.sensor.processingsystem = Sentinel-1 IPF
+secondary.sensor.spacecraftname = Sentinel-1
+####################################################################################################
+2024-12-06 18:05:48,372 - isce.topsinsar.runPreprocessor - INFO - 
+####################################################################################################
+    runComputeBaseline
+----------------------------------------------------------------------------------------------------
+baseline.IW-3 Bpar at midrange for first common burst = -24.940993091513796
+baseline.IW-3 Bpar at midrange for last common burst = -26.767749711256823
+baseline.IW-3 Bperp at midrange for first common burst = 34.53823625211111
+baseline.IW-3 Bperp at midrange for last common burst = 35.396317443697484
+baseline.IW-3 First common burst in reference = 0
+baseline.IW-3 First common burst in secondary = 0
+baseline.IW-3 Last common burst in reference = 9
+baseline.IW-3 Last common burst in secondary = 9
+baseline.IW-3 Number of bursts in reference = 9
+baseline.IW-3 Number of bursts in secondary = 9
+baseline.IW-3 Number of common bursts = 9
+####################################################################################################
+2024-12-06 18:05:57,737 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22140718184072516
+2024-12-06 18:06:07,339 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22156999540147318
+2024-12-06 18:06:17,023 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22173449123882807
+2024-12-06 18:06:28,347 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2219008098099078
+2024-12-06 18:06:38,409 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22206884653084488
+2024-12-06 18:06:50,522 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22223861516544258
+2024-12-06 18:07:01,578 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.2224101314408761
+2024-12-06 18:07:12,953 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22258354278206627
+2024-12-06 18:07:23,726 - isce.zerodop.topozero - WARNING - Default Peg heading set to: -0.22275873881642472
+2024-12-06 18:07:34,325 - isce.topsinsar.topo - INFO - 
+####################################################################################################
+    runTopo
+----------------------------------------------------------------------------------------------------
+topo.Bounding box for burst 0 - IW-3 = [29.452644059106657, 29.766573507594465, -93.44420251677371, -92.56662016737423]
+topo.Bounding box for burst 1 - IW-3 = [29.61857861182278, 29.932378743719873, -93.47812756151903, -92.59909915251914]
+topo.Bounding box for burst 2 - IW-3 = [29.78451062567367, 30.098180144809188, -93.51213440209528, -92.63158670737722]
+topo.Bounding box for burst 3 - IW-3 = [29.95055454414924, 30.26409821318645, -93.54612114522996, -92.66405061407409]
+topo.Bounding box for burst 4 - IW-3 = [30.116617318958923, 30.430018448002254, -93.58001804480988, -92.69662355058533]
+topo.Bounding box for burst 5 - IW-3 = [30.282650091659438, 30.59593206751421, -93.61387275975406, -92.72913849665525]
+topo.Bounding box for burst 6 - IW-3 = [30.448697804121082, 30.761845638682306, -93.64821619851983, -92.76162383052946]
+topo.Bounding box for burst 7 - IW-3 = [30.614850432659615, 30.927884984823685, -93.6821430878568, -92.79418095144247]
+topo.Bounding box for burst 8 - IW-3 = [30.781015885300423, 31.093929129924675, -93.71601179010176, -92.82665167062287]
+topo.Dem Used = demLat_N29_N32_Lon_W094_W092.dem.wgs84
+topo.Number of common bursts IW-3 = 9
+topo.Number of lines for burst 0 - IW-3 = 1508
+topo.Number of lines for burst 1 - IW-3 = 1508
+topo.Number of lines for burst 2 - IW-3 = 1508
+topo.Number of lines for burst 3 - IW-3 = 1508
+topo.Number of lines for burst 4 - IW-3 = 1508
+topo.Number of lines for burst 5 - IW-3 = 1508
+topo.Number of lines for burst 6 - IW-3 = 1508
+topo.Number of lines for burst 7 - IW-3 = 1508
+topo.Number of lines for burst 8 - IW-3 = 1508
+topo.Number of pixels for bursts 0 - IW-3 = 24568
+topo.Number of pixels for bursts 1 - IW-3 = 24568
+topo.Number of pixels for bursts 2 - IW-3 = 24568
+topo.Number of pixels for bursts 3 - IW-3 = 24568
+topo.Number of pixels for bursts 4 - IW-3 = 24568
+topo.Number of pixels for bursts 5 - IW-3 = 24568
+topo.Number of pixels for bursts 6 - IW-3 = 24568
+topo.Number of pixels for bursts 7 - IW-3 = 24568
+topo.Number of pixels for bursts 8 - IW-3 = 24568
+topo.Overall bounding box = [29.452644059106657, 31.093929129924675, -93.71601179010176, -92.56662016737423]
+####################################################################################################
+2024-12-06 18:07:34,712 - isce.topsinsar.overlaps - INFO - 
+####################################################################################################
+    runSubsetOverlaps
+----------------------------------------------------------------------------------------------------
+subset.Overlap 0 number of lines - IW-3 = 168
+subset.Overlap 0 number of valid lines - IW-3 = 113
+subset.Overlap 0 start time - IW-3 = 2021-03-12 00:18:44.971300
+subset.Overlap 0 stop time - IW-3 = 2021-03-12 00:18:45.314578
+subset.Overlap 1 number of lines - IW-3 = 168
+subset.Overlap 1 number of valid lines - IW-3 = 110
+subset.Overlap 1 start time - IW-3 = 2021-03-12 00:18:47.725745
+subset.Overlap 1 stop time - IW-3 = 2021-03-12 00:18:48.069023
+subset.Overlap 2 number of lines - IW-3 = 167
+subset.Overlap 2 number of valid lines - IW-3 = 113
+subset.Overlap 2 start time - IW-3 = 2021-03-12 00:18:50.482246
+subset.Overlap 2 stop time - IW-3 = 2021-03-12 00:18:50.823468
+subset.Overlap 3 number of lines - IW-3 = 167
+subset.Overlap 3 number of valid lines - IW-3 = 114
+subset.Overlap 3 start time - IW-3 = 2021-03-12 00:18:53.238747
+subset.Overlap 3 stop time - IW-3 = 2021-03-12 00:18:53.579969
+subset.Overlap 4 number of lines - IW-3 = 167
+subset.Overlap 4 number of valid lines - IW-3 = 115
+subset.Overlap 4 start time - IW-3 = 2021-03-12 00:18:55.995248
+subset.Overlap 4 stop time - IW-3 = 2021-03-12 00:18:56.336470
+subset.Overlap 5 number of lines - IW-3 = 167
+subset.Overlap 5 number of valid lines - IW-3 = 115
+subset.Overlap 5 start time - IW-3 = 2021-03-12 00:18:58.751749
+subset.Overlap 5 stop time - IW-3 = 2021-03-12 00:18:59.092971
+subset.Overlap 6 number of lines - IW-3 = 166
+subset.Overlap 6 number of valid lines - IW-3 = 114
+subset.Overlap 6 start time - IW-3 = 2021-03-12 00:19:01.510306
+subset.Overlap 6 stop time - IW-3 = 2021-03-12 00:19:01.849472
+subset.Overlap 7 number of lines - IW-3 = 166
+subset.Overlap 7 number of valid lines - IW-3 = 115
+subset.Overlap 7 start time - IW-3 = 2021-03-12 00:19:04.268863
+subset.Overlap 7 stop time - IW-3 = 2021-03-12 00:19:04.608029
+####################################################################################################
+2024-12-06 18:07:34,838 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0, IW-3: Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 18:07:34,844 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:34,844 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:35,199 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 0 - IW-3: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 18:07:35,206 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:35,206 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:35,585 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1, IW-3: Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 18:07:35,592 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:35,592 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:35,965 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 1 - IW-3: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 18:07:35,972 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:35,972 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:36,316 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2, IW-3: Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 18:07:36,323 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:36,323 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:36,670 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 2 - IW-3: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 18:07:36,677 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:36,677 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:37,016 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3, IW-3: Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 18:07:37,023 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:37,023 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:37,368 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 3 - IW-3: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 18:07:37,375 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:37,375 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:37,723 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4, IW-3: Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 18:07:37,729 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:37,730 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:38,077 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 4 - IW-3: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 18:07:38,084 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:38,084 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:38,461 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5, IW-3: Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 18:07:38,468 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:38,468 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:38,829 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 5 - IW-3: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 18:07:38,837 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:38,837 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:39,182 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6, IW-3: Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 18:07:39,189 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:39,189 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:39,533 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 6 - IW-3: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 18:07:39,541 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:39,541 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:39,892 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7, IW-3: Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 18:07:39,900 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:39,900 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:40,249 - isce.topsinsar.coarseoffsets - INFO - Overlap pair 7 - IW-3: Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 18:07:40,255 - isce.topsinsar.coarseoffsets - INFO - Additional time offset applied in geo2rdr: 0.0 secs
+2024-12-06 18:07:40,256 - isce.topsinsar.coarseoffsets - INFO - Additional range offset applied in geo2rdr: 0.0 m
+2024-12-06 18:07:41,067 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:07:41,068 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:07:41,068 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:07:46,983 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:07:46,984 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:07:46,984 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:07:52,817 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:07:52,817 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:07:52,818 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:07:58,673 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:07:58,673 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:07:58,674 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:04,545 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:04,546 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:04,546 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:10,413 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:10,414 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:10,414 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:16,243 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:16,243 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:16,243 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:22,169 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:22,169 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:22,169 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:28,113 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:28,114 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:28,114 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:34,040 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:34,040 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:34,041 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:39,861 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:39,862 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:39,862 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:45,680 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:45,681 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:45,681 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:51,682 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:51,683 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:51,683 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:08:57,839 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:08:57,840 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:08:57,840 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:09:03,760 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:09:03,760 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:09:03,760 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:09:09,695 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:09:09,696 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:09:09,696 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:10:25,444 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_01.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:25,755 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_02.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:26,052 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_03.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:26,355 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_04.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:26,653 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_05.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:26,955 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_06.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:27,252 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_07.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 22 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:27,549 - root - DEBUG - Creating readonly ISCE mmap with 
+file = ESD/overlap_IW3_08.5alks_15rlks.int 
+bands = 1 
+width = 1637 
+length = 23 
+scheme = BIP 
+dtype = CFLOAT 
+
+2024-12-06 18:10:27,987 - isce.topsinsar.esd - INFO - 
+####################################################################################################
+    runESD
+----------------------------------------------------------------------------------------------------
+esd.Mean = -0.00038245669566094875
+esd.Median = 0.00045810057781636715
+esd.Std = 0.00442237442397042
+esd.coherence threshold = 0.85
+esd.number of coherent points = 4
+####################################################################################################
+2024-12-06 18:12:03,601 - isce.topsinsar.rangecoreg - INFO - 
+####################################################################################################
+    runRangeCoreg
+----------------------------------------------------------------------------------------------------
+esd.Mean = -0.06776120981387479
+esd.Median = -0.109375
+esd.Std = 0.5045831017660922
+esd.number of coherent points = 1773
+esd.snr threshold = 8.0
+####################################################################################################
+2024-12-06 18:12:03,727 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 0 of reference matched with Burst 0 of secondary
+2024-12-06 18:12:03,734 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:03,734 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:08,966 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 1 of reference matched with Burst 1 of secondary
+2024-12-06 18:12:08,973 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:08,973 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:13,876 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 2 of reference matched with Burst 2 of secondary
+2024-12-06 18:12:13,883 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:13,883 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:19,134 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 3 of reference matched with Burst 3 of secondary
+2024-12-06 18:12:19,142 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:19,142 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:24,061 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 4 of reference matched with Burst 4 of secondary
+2024-12-06 18:12:24,069 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:24,069 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:29,159 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 5 of reference matched with Burst 5 of secondary
+2024-12-06 18:12:29,166 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:29,167 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:34,239 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 6 of reference matched with Burst 6 of secondary
+2024-12-06 18:12:34,246 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:34,247 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:39,229 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 7 of reference matched with Burst 7 of secondary
+2024-12-06 18:12:39,237 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:39,238 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:44,100 - isce.topsinsar.fineoffsets - INFO - IW3 - Burst 8 of reference matched with Burst 8 of secondary
+2024-12-06 18:12:44,108 - isce.topsinsar.fineoffsets - INFO - Additional time offset applied in geo2rdr: 9.416515287640728e-07 secs
+2024-12-06 18:12:44,108 - isce.topsinsar.fineoffsets - INFO - Additional range offset applied in geo2rdr: -0.15785394722967885 m
+2024-12-06 18:12:49,188 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:12:49,189 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:12:49,189 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:12:57,984 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:12:57,984 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:12:57,985 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:13:06,841 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:13:06,841 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:13:06,841 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:13:15,890 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:13:15,890 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:13:15,890 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:13:24,962 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:13:24,962 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:13:24,963 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:13:33,894 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:13:33,895 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:13:33,895 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:13:42,897 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:13:42,897 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:13:42,897 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:13:51,858 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:13:51,859 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:13:51,859 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:14:00,527 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_LINES has been set to the default value 1508 which is the number of lines in the slc image.
+2024-12-06 18:14:00,528 - isce.stdproc.resamp_slc - WARNING - The variable INPUT_WIDTH has been set to the default value 24569 which is the width of the slc image.
+2024-12-06 18:14:00,528 - isce.stdproc.resamp_slc - WARNING - No flattening requested
+2024-12-06 18:14:16,042 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:14:31,012 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:14:45,956 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:15:01,012 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:15:16,072 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:15:31,081 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:15:46,369 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:16:01,916 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:16:17,155 - isce.mroipac.correlation - INFO - Calculating Correlation
+2024-12-06 18:16:44,154 - isce.topsinsar.runFilter - INFO - Applying power-spectral filter
+2024-12-06 18:16:44,200 - isce.mroipac.filter - DEBUG - width: 4913
+2024-12-06 18:16:44,201 - isce.mroipac.filter - DEBUG - length: 12236
+2024-12-06 18:16:44,201 - isce.mroipac.filter - DEBUG - input: merged/topophase.flat
+2024-12-06 18:16:44,202 - isce.mroipac.filter - DEBUG - output: merged/filt_topophase.flat
+2024-12-06 18:16:44,202 - isce.mroipac.filter - DEBUG - filter strength: 0.2
+2024-12-06 18:16:44,202 - isce.mroipac.filter - INFO - Filtering interferogram
+2024-12-06 19:53:31,522 - isce.topsinsar.runGeocode - INFO - Geocoding Image
+2024-12-06 19:53:36,054 - isce.topsinsar.runGeocode - INFO - 
+####################################################################################################
+    runGeocode
+----------------------------------------------------------------------------------------------------
+geocode.Azimuth looks = 1
+geocode.Dem Used = demLat_N29_N32_Lon_W094_W092.dem.wgs84
+geocode.East = -93.31083333333333
+geocode.Geocoding:  = merged/filt_topophase.flat
+geocode.Length = 12236
+geocode.North = 30.181944444444444
+geocode.Output file:  = merged/filt_topophase.flat.geo
+geocode.Range looks = 5
+geocode.South = 29.891666666666666
+geocode.West = -93.48277777777778
+geocode.Width = 4913
+####################################################################################################
+2024-12-06 19:53:36,103 - isce.topsinsar.runGeocode - INFO - Geocoding Image
+2024-12-06 19:53:36,124 - isce.insar - INFO - Total Time: 6477 seconds
+2024-12-06 21:22:15,655 - rasterio.session - DEBUG - Could not import boto3, continuing with reduced functionality.
+2024-12-06 21:22:15,663 - rasterio.env - DEBUG - Entering env context: <rasterio.env.Env object at 0x7df3960f14c0>
+2024-12-06 21:22:15,664 - rasterio.env - DEBUG - Starting outermost env
+2024-12-06 21:22:15,664 - rasterio.env - DEBUG - No GDAL environment exists
+2024-12-06 21:22:15,664 - rasterio.env - DEBUG - New GDAL environment <rasterio._env.GDALEnv object at 0x7df3960f12b0> created
+2024-12-06 21:22:15,667 - rasterio._filepath - DEBUG - Installing FilePath filesystem handler plugin...
+2024-12-06 21:22:15,667 - rasterio._env - DEBUG - GDAL_DATA found in environment.
+2024-12-06 21:22:15,667 - rasterio._env - DEBUG - PROJ_DATA found in environment.
+2024-12-06 21:22:15,667 - rasterio._env - DEBUG - Started GDALEnv: self=<rasterio._env.GDALEnv object at 0x7df3960f12b0>.
+2024-12-06 21:22:15,668 - rasterio.env - DEBUG - Entered env context: <rasterio.env.Env object at 0x7df3960f14c0>
+2024-12-06 21:22:15,668 - rasterio._base - DEBUG - Sharing flag: 0
+2024-12-06 21:22:15,672 - rasterio._env - INFO - GDAL signalled an error: err_no=1, msg='PROJ: internal_proj_create_from_database: /home/wcc/tools/miniforge/envs/isce/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.'
+2024-12-06 21:22:15,673 - rasterio._base - DEBUG - Nodata success: 0, Nodata value: -10000.000000
+2024-12-06 21:22:15,673 - rasterio._base - DEBUG - Dataset <open DatasetReader name='/home/wcc/SabineRS_InSAR/interferometry/work/merged/filt_topophase.flat.geo.vrt' mode='r'> is started.
+2024-12-06 21:22:15,673 - rasterio.env - DEBUG - Exiting env context: <rasterio.env.Env object at 0x7df3960f14c0>
+2024-12-06 21:22:15,674 - rasterio.env - DEBUG - Cleared existing <rasterio._env.GDALEnv object at 0x7df3960f12b0> options
+2024-12-06 21:22:15,674 - rasterio._env - DEBUG - Stopped GDALEnv <rasterio._env.GDALEnv object at 0x7df3960f12b0>.
+2024-12-06 21:22:15,674 - rasterio.env - DEBUG - Exiting outermost env
+2024-12-06 21:22:15,674 - rasterio.env - DEBUG - Exited env context: <rasterio.env.Env object at 0x7df3960f14c0>
+2024-12-06 21:22:15,674 - rasterio.env - DEBUG - Entering env context: <rasterio.env.Env object at 0x7df39c3cb1c0>
+2024-12-06 21:22:15,674 - rasterio.env - DEBUG - Starting outermost env
+2024-12-06 21:22:15,675 - rasterio.env - DEBUG - No GDAL environment exists
+2024-12-06 21:22:15,675 - rasterio.env - DEBUG - New GDAL environment <rasterio._env.GDALEnv object at 0x7df3960f12b0> created
+2024-12-06 21:22:15,675 - rasterio._env - DEBUG - GDAL_DATA found in environment.
+2024-12-06 21:22:15,675 - rasterio._env - DEBUG - PROJ_DATA found in environment.
+2024-12-06 21:22:15,676 - rasterio._env - DEBUG - Started GDALEnv: self=<rasterio._env.GDALEnv object at 0x7df3960f12b0>.
+2024-12-06 21:22:15,676 - rasterio.env - DEBUG - Entered env context: <rasterio.env.Env object at 0x7df39c3cb1c0>
+2024-12-06 21:22:15,676 - rasterio._io - DEBUG - Output nodata value read from file: None
+2024-12-06 21:22:15,676 - rasterio._io - DEBUG - Output nodata values: [None]
+2024-12-06 21:22:15,677 - rasterio._io - DEBUG - all_valid: True
+2024-12-06 21:22:15,677 - rasterio._io - DEBUG - mask_flags: ([<MaskFlags.all_valid: 1>],)
+2024-12-06 21:22:15,677 - rasterio._io - DEBUG - Jump straight to _read()
+2024-12-06 21:22:15,677 - rasterio._io - DEBUG - Window: None
+2024-12-06 21:22:15,678 - rasterio._io - DEBUG - IO window xoff=0.0 yoff=0.0 width=619.0 height=1045.0
+2024-12-06 21:22:15,682 - rasterio.env - DEBUG - Exiting env context: <rasterio.env.Env object at 0x7df39c3cb1c0>
+2024-12-06 21:22:15,683 - rasterio.env - DEBUG - Cleared existing <rasterio._env.GDALEnv object at 0x7df3960f12b0> options
+2024-12-06 21:22:15,683 - rasterio._env - DEBUG - Stopped GDALEnv <rasterio._env.GDALEnv object at 0x7df3960f12b0>.
+2024-12-06 21:22:15,683 - rasterio.env - DEBUG - Exiting outermost env
+2024-12-06 21:22:15,683 - rasterio.env - DEBUG - Exited env context: <rasterio.env.Env object at 0x7df39c3cb1c0>
+2024-12-06 21:35:58,881 - rasterio.env - DEBUG - Entering env context: <rasterio.env.Env object at 0x7df484bb22e0>
+2024-12-06 21:35:58,882 - rasterio.env - DEBUG - Starting outermost env
+2024-12-06 21:35:58,883 - rasterio.env - DEBUG - No GDAL environment exists
+2024-12-06 21:35:58,883 - rasterio.env - DEBUG - New GDAL environment <rasterio._env.GDALEnv object at 0x7df49fbb9b80> created
+2024-12-06 21:35:58,883 - rasterio._env - DEBUG - GDAL_DATA found in environment.
+2024-12-06 21:35:58,883 - rasterio._env - DEBUG - PROJ_DATA found in environment.
+2024-12-06 21:35:58,884 - rasterio._env - DEBUG - Started GDALEnv: self=<rasterio._env.GDALEnv object at 0x7df49fbb9b80>.
+2024-12-06 21:35:58,884 - rasterio.env - DEBUG - Entered env context: <rasterio.env.Env object at 0x7df484bb22e0>
+2024-12-06 21:35:58,884 - rasterio._base - DEBUG - Sharing flag: 0
+2024-12-06 21:35:58,888 - rasterio._env - INFO - GDAL signalled an error: err_no=1, msg='PROJ: internal_proj_create_from_database: /home/wcc/tools/miniforge/envs/isce/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.'
+2024-12-06 21:35:58,889 - rasterio._base - DEBUG - Nodata success: 0, Nodata value: -10000.000000
+2024-12-06 21:35:58,889 - rasterio._base - DEBUG - Dataset <open DatasetReader name='/home/wcc/SabineRS_InSAR/interferometry/work/merged/filt_topophase.flat.geo.vrt' mode='r'> is started.
+2024-12-06 21:35:58,889 - rasterio.env - DEBUG - Exiting env context: <rasterio.env.Env object at 0x7df484bb22e0>
+2024-12-06 21:35:58,889 - rasterio.env - DEBUG - Cleared existing <rasterio._env.GDALEnv object at 0x7df49fbb9b80> options
+2024-12-06 21:35:58,890 - rasterio._env - DEBUG - Stopped GDALEnv <rasterio._env.GDALEnv object at 0x7df49fbb9b80>.
+2024-12-06 21:35:58,890 - rasterio.env - DEBUG - Exiting outermost env
+2024-12-06 21:35:58,890 - rasterio.env - DEBUG - Exited env context: <rasterio.env.Env object at 0x7df484bb22e0>
+2024-12-06 21:35:58,890 - rasterio.env - DEBUG - Entering env context: <rasterio.env.Env object at 0x7df49fbb9b80>
+2024-12-06 21:35:58,890 - rasterio.env - DEBUG - Starting outermost env
+2024-12-06 21:35:58,890 - rasterio.env - DEBUG - No GDAL environment exists
+2024-12-06 21:35:58,891 - rasterio.env - DEBUG - New GDAL environment <rasterio._env.GDALEnv object at 0x7df39c463400> created
+2024-12-06 21:35:58,891 - rasterio._env - DEBUG - GDAL_DATA found in environment.
+2024-12-06 21:35:58,891 - rasterio._env - DEBUG - PROJ_DATA found in environment.
+2024-12-06 21:35:58,892 - rasterio._env - DEBUG - Started GDALEnv: self=<rasterio._env.GDALEnv object at 0x7df39c463400>.
+2024-12-06 21:35:58,892 - rasterio.env - DEBUG - Entered env context: <rasterio.env.Env object at 0x7df49fbb9b80>
+2024-12-06 21:35:58,892 - rasterio._io - DEBUG - Output nodata value read from file: None
+2024-12-06 21:35:58,892 - rasterio._io - DEBUG - Output nodata values: [None]
+2024-12-06 21:35:58,892 - rasterio._io - DEBUG - all_valid: True
+2024-12-06 21:35:58,893 - rasterio._io - DEBUG - mask_flags: ([<MaskFlags.all_valid: 1>],)
+2024-12-06 21:35:58,893 - rasterio._io - DEBUG - Jump straight to _read()
+2024-12-06 21:35:58,893 - rasterio._io - DEBUG - Window: None
+2024-12-06 21:35:58,893 - rasterio._io - DEBUG - IO window xoff=0.0 yoff=0.0 width=619.0 height=1045.0
+2024-12-06 21:35:58,896 - rasterio.env - DEBUG - Exiting env context: <rasterio.env.Env object at 0x7df49fbb9b80>
+2024-12-06 21:35:58,897 - rasterio.env - DEBUG - Cleared existing <rasterio._env.GDALEnv object at 0x7df39c463400> options
+2024-12-06 21:35:58,897 - rasterio._env - DEBUG - Stopped GDALEnv <rasterio._env.GDALEnv object at 0x7df39c463400>.
+2024-12-06 21:35:58,897 - rasterio.env - DEBUG - Exiting outermost env
+2024-12-06 21:35:58,898 - rasterio.env - DEBUG - Exited env context: <rasterio.env.Env object at 0x7df49fbb9b80>
