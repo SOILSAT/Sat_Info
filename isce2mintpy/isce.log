@@ -435,3 +435,38 @@ esd.snr threshold = 8.0
 2024-12-09 17:55:58,908 - isce.mroipac.filter - DEBUG - output: merged/filt_topophase.flat
 2024-12-09 17:55:58,908 - isce.mroipac.filter - DEBUG - filter strength: 0.2
 2024-12-09 17:55:58,909 - isce.mroipac.filter - INFO - Filtering interferogram
+2024-12-09 19:29:53,483 - isce.topsinsar.runGeocode - INFO - Geocoding Image
+2024-12-09 19:29:59,939 - isce.topsinsar.runGeocode - INFO - 
+####################################################################################################
+    runGeocode
+----------------------------------------------------------------------------------------------------
+geocode.Azimuth looks = 1
+geocode.Dem Used = demLat_N29_N32_Lon_W094_W092.dem.wgs84
+geocode.East = -93.15166666666667
+geocode.Geocoding:  = merged/filt_topophase.flat
+geocode.Length = 12240
+geocode.North = 30.13111111111111
+geocode.Output file:  = merged/filt_topophase.flat.geo
+geocode.Range looks = 5
+geocode.South = 29.834444444444443
+geocode.West = -93.51027777777777
+geocode.Width = 4913
+####################################################################################################
+2024-12-09 19:33:34,634 - isce.topsinsar.runGeocode - INFO - Geocoding Image
+2024-12-09 19:33:37,382 - isce.topsinsar.runGeocode - INFO - 
+####################################################################################################
+    runGeocode
+----------------------------------------------------------------------------------------------------
+geocode.Azimuth looks = 1
+geocode.Dem Used = demLat_N29_N32_Lon_W094_W092.dem.wgs84
+geocode.East = -93.15166666666667
+geocode.Geocoding:  = merged/filt_dense_offsets.bil
+geocode.Length = 370
+geocode.North = 30.13111111111111
+geocode.Output file:  = merged/filt_dense_offsets.bil.geo
+geocode.Range looks = 5
+geocode.South = 29.834444444444443
+geocode.West = -93.51027777777777
+geocode.Width = 755
+####################################################################################################
+2024-12-09 19:33:37,383 - isce.insar - INFO - Total Time: 6751 seconds
